@@ -1,0 +1,160 @@
+{
+    "projectArn": "arn:aws:bedrock:us-east-1:<ACCOUNT_ID>:data-automation-project/5e14304302cd",
+    "creationTime": "2026-04-02T10:28:12+00:00",
+    "lastModifiedTime": "2026-04-02T10:28:12+00:00",
+    "projectName": "seqster-bda-pii-redacted",
+    "projectStage": "LIVE",
+    "projectType": "ASYNC",
+    "standardOutputConfiguration": {
+        "document": {
+            "extraction": {
+                "granularity": {
+                    "types": [
+                        "PAGE",
+                        "ELEMENT"
+                    ]
+                },
+                "boundingBox": {
+                    "state": "DISABLED"
+                }
+            },
+            "generativeField": {
+                "state": "DISABLED"
+            },
+            "outputFormat": {
+                "textFormat": {
+                    "types": [
+                        "MARKDOWN"
+                    ]
+                },
+                "additionalFileFormat": {
+                    "state": "DISABLED"
+                }
+            }
+        },
+        "image": {
+            "extraction": {
+                "category": {
+                    "state": "ENABLED",
+                    "types": [
+                        "TEXT_DETECTION"
+                    ]
+                },
+                "boundingBox": {
+                    "state": "ENABLED"
+                }
+            },
+            "generativeField": {
+                "state": "ENABLED",
+                "types": [
+                    "IMAGE_SUMMARY"
+                ]
+            }
+        },
+        "video": {
+            "extraction": {
+                "category": {
+                    "state": "ENABLED",
+                    "types": [
+                        "TEXT_DETECTION"
+                    ]
+                },
+                "boundingBox": {
+                    "state": "ENABLED"
+                }
+            },
+            "generativeField": {
+                "state": "ENABLED",
+                "types": [
+                    "VIDEO_SUMMARY",
+                    "CHAPTER_SUMMARY"
+                ]
+            }
+        },
+        "audio": {
+            "extraction": {
+                "category": {
+                    "state": "ENABLED",
+                    "types": [
+                        "TRANSCRIPT"
+                    ],
+                    "typeConfiguration": {
+                        "transcript": {
+                            "speakerLabeling": {
+                                "state": "DISABLED"
+                            },
+                            "channelLabeling": {
+                                "state": "DISABLED"
+                            }
+                        }
+                    }
+                }
+            },
+            "generativeField": {
+                "state": "DISABLED"
+            }
+        }
+    },
+    "customOutputConfiguration": [],
+    "overrideConfiguration": {
+        "document": {
+            "splitter": {
+                "state": "DISABLED"
+            },
+            "modalityProcessing": {
+                "state": "ENABLED"
+            },
+            "sensitiveDataConfiguration": {
+                "detectionMode": "DETECTION_AND_REDACTION",
+                "detectionScope": [
+                    "STANDARD"
+                ],
+                "piiEntitiesConfiguration": {
+                    "piiEntityTypes": [
+                        "ADDRESS",
+                        "AGE",
+                        "NAME",
+                        "EMAIL",
+                        "PHONE",
+                        "USERNAME",
+                        "PASSWORD",
+                        "DRIVER_ID",
+                        "LICENSE_PLATE",
+                        "VEHICLE_IDENTIFICATION_NUMBER",
+                        "CREDIT_DEBIT_CARD_CVV",
+                        "CREDIT_DEBIT_CARD_EXPIRY",
+                        "CREDIT_DEBIT_CARD_NUMBER",
+                        "PIN",
+                        "INTERNATIONAL_BANK_ACCOUNT_NUMBER",
+                        "SWIFT_CODE",
+                        "IP_ADDRESS",
+                        "MAC_ADDRESS",
+                        "URL",
+                        "AWS_ACCESS_KEY",
+                        "AWS_SECRET_KEY",
+                        "US_BANK_ACCOUNT_NUMBER",
+                        "US_BANK_ROUTING_NUMBER",
+                        "US_INDIVIDUAL_TAX_IDENTIFICATION_NUMBER",
+                        "US_PASSPORT_NUMBER",
+                        "US_SOCIAL_SECURITY_NUMBER",
+                        "CA_HEALTH_NUMBER",
+                        "CA_SOCIAL_INSURANCE_NUMBER",
+                        "UK_NATIONAL_HEALTH_SERVICE_NUMBER",
+                        "UK_NATIONAL_INSURANCE_NUMBER",
+                        "UK_UNIQUE_TAXPAYER_REFERENCE_NUMBER"
+                    ],
+                    "redactionMaskMode": "ENTITY_TYPE"
+                }
+            }
+        },
+        "image": [],
+        "video": [],
+        "audio": {
+            "languageConfiguration": {
+                "generativeOutputLanguage": "DEFAULT",
+                "identifyMultipleLanguages": false
+            }
+        }
+    },
+    "status": "COMPLETED"
+}

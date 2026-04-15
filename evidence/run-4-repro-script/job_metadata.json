@@ -1,0 +1,20 @@
+{
+    "job_id": "1083587e-0c2c-4c40-91cf-2a8682bcd57a",
+    "job_status": "PROCESSED",
+    "semantic_modality": "DOCUMENT",
+    "output_metadata": [
+        {
+            "asset_id": 0,
+            "asset_input_path": {
+                "s3_bucket": "<S3_BUCKET>",
+                "s3_key": "bda-repro/staging/00ee69ae-a006-43d1-8503-dc705e618987.pdf"
+            },
+            "segment_metadata": [
+                {
+                    "standard_output_path": "s3://<S3_BUCKET>/bda-repro/output/00ee69ae-a006-43d1-8503-dc705e618987/1083587e-0c2c-4c40-91cf-2a8682bcd57a/0/standard_output/0/result.json",
+                    "redacted_standard_output_path": "s3://<S3_BUCKET>/bda-repro/output/00ee69ae-a006-43d1-8503-dc705e618987/1083587e-0c2c-4c40-91cf-2a8682bcd57a/0/standard_output/0/redacted/result.json"
+                }
+            ]
+        }
+    ]
+}

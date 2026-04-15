@@ -1,0 +1,3 @@
+NAME:	John Q Public
+EMAIL: PHONE: SSN:	john.public@example.com 415-555-1212 123-45-6789
+ADDRESS:	123 Main St, Springfield, IL 62704

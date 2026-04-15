@@ -1,0 +1,5 @@
+NAME:	John Q Public
+EMAIL:	
+PHONE:	415-555-1212
+SSN:	123-45-6789
+ADDRESS:	123 Main St, Springfield, IL 62704

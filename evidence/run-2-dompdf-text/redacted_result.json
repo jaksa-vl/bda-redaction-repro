@@ -1,0 +1,90 @@
+{
+    "metadata": {
+        "asset_id": "0",
+        "logical_subdocument_id": "0",
+        "semantic_modality": "DOCUMENT",
+        "s3_bucket": "<S3_BUCKET>",
+        "s3_key": "ehr/bda_staging/u101010/a999001/89f5c11c-7a56-40ac-9ff8-5ec7f35fba4f.pdf",
+        "number_of_pages": 1,
+        "start_page_index": 0,
+        "end_page_index": 0,
+        "file_type": "PDF"
+    },
+    "document": {
+        "statistics": {
+            "element_count": 1,
+            "table_count": 1,
+            "figure_count": 0,
+            "hyperlink_count": 1
+        }
+    },
+    "pages": [
+        {
+            "id": "a8d9ab96-f443-459a-b2d6-dd77651ba44a",
+            "page_index": 0,
+            "representation": {
+                "text": "NAME:\tJohn Q Public\nEMAIL:\t\nPHONE:\t415-555-1212\nSSN:\t123-45-6789\nADDRESS:\t123 Main St, Springfield, IL 62704",
+                "markdown": "NAME:\tJohn Q Public\nEMAIL:\t\nPHONE:\t415-555-1212\nSSN:\t123-45-6789\nADDRESS:\t123 Main St, Springfield, IL 62704",
+                "html": "<p>NAME:\tJohn Q Public\nEMAIL:\t\nPHONE:\t415-555-1212\nSSN:\t123-45-6789\nADDRESS:\t123 Main St, Springfield, IL 62704\n</p>"
+            },
+            "statistics": {
+                "element_count": 1,
+                "table_count": 1,
+                "figure_count": 0,
+                "word_count": 17,
+                "line_count": 5,
+                "hyperlink_count": 1
+            },
+            "asset_metadata": {
+                "rectified_image_width_pixels": 2472,
+                "rectified_image_height_pixels": 3501,
+                "corners": [
+                    [
+                        0.0011133159360577983,
+                        0.0015526043576734644
+                    ],
+                    [
+                        0.9982517365486391,
+                        0.0015707834514077314
+                    ],
+                    [
+                        0.9982730988533266,
+                        1.0
+                    ],
+                    [
+                        0.001116750221098623,
+                        1.0000195618807028
+                    ]
+                ]
+            }
+        }
+    ],
+    "elements": [
+        {
+            "id": "fc018252-76a9-4aaa-b2fb-2eb2459ebfea",
+            "reading_order": 0,
+            "locations": [
+                {
+                    "page_index": 0,
+                    "bounding_box": {
+                        "left": 0.05390624855640595,
+                        "top": 0.059852159401411205,
+                        "width": 0.36421872719121406,
+                        "height": 0.16719990572666685
+                    }
+                }
+            ],
+            "type": "TEXT",
+            "sub_type": "PARAGRAPH",
+            "representation": {
+                "text": "NAME:\tJohn Q Public\nEMAIL:\t\nPHONE:\t415-555-1212\nSSN:\t123-45-6789\nADDRESS:\t123 Main St, Springfield, IL 62704",
+                "markdown": "NAME:\tJohn Q Public\nEMAIL:\t\nPHONE:\t415-555-1212\nSSN:\t123-45-6789\nADDRESS:\t123 Main St, Springfield, IL 62704",
+                "html": "<p>NAME:\tJohn Q Public\nEMAIL:\t\nPHONE:\t415-555-1212\nSSN:\t123-45-6789\nADDRESS:\t123 Main St, Springfield, IL 62704\n</p>"
+            }
+        }
+    ],
+    "sensitive_data_detection": {
+        "pages": [],
+        "elements": []
+    }
+}

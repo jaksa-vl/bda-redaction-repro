@@ -1,0 +1,20 @@
+{
+    "job_id": "51a48800-6256-42ff-9485-e0ce8fc7045a",
+    "job_status": "PROCESSED",
+    "semantic_modality": "DOCUMENT",
+    "output_metadata": [
+        {
+            "asset_id": 0,
+            "asset_input_path": {
+                "s3_bucket": "<S3_BUCKET>",
+                "s3_key": "ehr/bda_staging/u101010/a999001/04b93d6f-9484-45b7-a4e1-497e3937a340.pdf"
+            },
+            "segment_metadata": [
+                {
+                    "standard_output_path": "s3://<S3_BUCKET>/ehr/bda_output/u101010/a999001/04b93d6f-9484-45b7-a4e1-497e3937a340/51a48800-6256-42ff-9485-e0ce8fc7045a/0/standard_output/0/result.json",
+                    "redacted_standard_output_path": "s3://<S3_BUCKET>/ehr/bda_output/u101010/a999001/04b93d6f-9484-45b7-a4e1-497e3937a340/51a48800-6256-42ff-9485-e0ce8fc7045a/0/standard_output/0/redacted/result.json"
+                }
+            ]
+        }
+    ]
+}

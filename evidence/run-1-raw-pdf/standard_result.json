@@ -1,0 +1,73 @@
+{
+    "metadata": {
+        "asset_id": "0",
+        "logical_subdocument_id": "0",
+        "semantic_modality": "DOCUMENT",
+        "s3_bucket": "<S3_BUCKET>",
+        "s3_key": "ehr/bda_staging/u101010/a999001/7e9c5a6b-4bcb-40a4-831c-b906ea0cad44.pdf",
+        "number_of_pages": 1,
+        "start_page_index": 0,
+        "end_page_index": 0,
+        "file_type": "PDF"
+    },
+    "document": {
+        "statistics": {
+            "element_count": 1,
+            "table_count": 1,
+            "figure_count": 0,
+            "hyperlink_count": 1
+        }
+    },
+    "pages": [
+        {
+            "id": "6c5ae1d9-f779-4eb6-80f5-6efd053422b0",
+            "page_index": 0,
+            "representation": {
+                "markdown": "NAME:\tJohn Q Public\nEMAIL: PHONE: SSN:\tjohn.public@example.com 415-555-1212 123-45-6789\nADDRESS:\t123 Main St, Springfield, IL 62704"
+            },
+            "statistics": {
+                "element_count": 1,
+                "table_count": 1,
+                "figure_count": 0,
+                "hyperlink_count": 1
+            },
+            "asset_metadata": {
+                "rectified_image_width_pixels": 2547,
+                "rectified_image_height_pixels": 3298,
+                "corners": [
+                    [
+                        8.31035714523465e-05,
+                        0.0004718008547118216
+                    ],
+                    [
+                        0.9992441214767157,
+                        0.0005190756826689749
+                    ],
+                    [
+                        0.9991971124387254,
+                        1.0000302586410985
+                    ],
+                    [
+                        6.495377596686868e-05,
+                        1.0000000739820076
+                    ]
+                ]
+            }
+        }
+    ],
+    "elements": [
+        {
+            "id": "e5c56003-2027-4a11-bfc7-fdabdd9e79ac",
+            "reading_order": 0,
+            "type": "TEXT",
+            "sub_type": "PARAGRAPH",
+            "representation": {
+                "markdown": "NAME:\tJohn Q Public\nEMAIL: PHONE: SSN:\tjohn.public@example.com 415-555-1212 123-45-6789\nADDRESS:\t123 Main St, Springfield, IL 62704"
+            }
+        }
+    ],
+    "sensitive_data_detection": {
+        "pages": [],
+        "elements": []
+    }
+}
